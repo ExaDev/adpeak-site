@@ -1,0 +1,21 @@
+---
+import HeroText from '~/components/widgets/HeroText.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Early Access',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Sign up"
+    title="Early Access"
+    subtitle="Be among the first to use Adpeak"
+    callToAction={{
+      text: 'Get early access',
+      href: 'https://wlfnmn.typeform.com/to/PSm47u2z',
+      variant: 'primary',
+    }}
+  />
+</Layout>
